@@ -8,6 +8,7 @@ before_script:
 setup:
   script:
     - sudo lb build
+    - ls -lsah
   artifacts:
     paths:
       - live-image-i386.hybrid.iso
